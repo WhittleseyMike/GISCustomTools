@@ -1,0 +1,36 @@
+# ---- Large raster data (exceeds GitHub's 100 MB file size limit) ----
+*.tif
+*.tiff
+*.ovr
+*.img
+*.jp2
+*.sid
+
+# ---- ArcGIS Pro machine-specific / transient files ----
+# Lock files (present while the project is open in ArcGIS Pro)
+*.lock
+*.sr.lock
+
+# Project search index (regenerated per machine)
+Index/
+
+# Project backup copies
+.backups/
+
+# Geoprocessing history / import logs
+GpMessages/
+ImportLog/
+
+# Office temp/lock files (present while a file is open in Excel/Word)
+~$*
+
+# ---- Python bytecode cache ----
+__pycache__/
+*.pyc
+
+# ---- Conda environment (rebuild locally by cloning arcgispro-py3; too large for git) ----
+CondaEnv/gp-tools/
+
+# ---- OS noise ----
+Thumbs.db
+Desktop.ini

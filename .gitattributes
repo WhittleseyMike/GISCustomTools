@@ -1,0 +1,2 @@
+# Store geodatabase table data in Git LFS (these can exceed GitHub's 100 MB limit)
+*.gdbtable filter=lfs diff=lfs merge=lfs -text
